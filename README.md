@@ -6,7 +6,7 @@ Start the program as:
 Usage of program through Graphic User Interface (**GUI**) should be intuitive and shouldn't need further guidance.
 
 # Implementation
-File `Quote.py`(*V2.0*)  is updated version of program in file (*currently named as*) `Quote_V1.py`. The previous version was runned purely trough "Command line" (**Cl**) with optional use of **Cl parameters**. It's documentation was also renamed and is available [here](./Quote_V1.py).
+File `Quote.py`(*V2.0*)  is updated version of program in file (*currently named as*) `Quote_V1.py`. The previous version was runned purely trough "Command line" (**Cl**) with optional use of **Cl parameters**. It's documentation was also renamed and is available [here](./V1_README.md).
  
 ## Program structure 
 The program could be semmantically separated into few functions and sections. 
