@@ -1,5 +1,5 @@
 ## Run
-`python3 Quote.py {-h | -themes | -authors}  {-a name} {-t name} {-q cnt}`  
+`python3 Quote.py {-h | -themes | -authors}  {-a name} {-t name} {-s filename}`  
 
 ### Parameters:
 - `-h` => print help
@@ -9,8 +9,7 @@
 #### Selectors:  
 - `-a name` => list selected author quotes
 - `-t name` => list selected theme quotes
-- `-q cnt` => max number of quotes listed
-
+- `-s filename` => name of saved **.csv** file
 
 ### Defects
 1. Console print is used purely to have overview over quotes and its themes and authors. To read whole (longer) quotes, consider saving it into `your_filename.csv`.  
@@ -19,6 +18,7 @@
 
 
 ## Possible future expansions:
-- pick which page/s should be loaded 
+- choose which page/s should be loaded 
+- choose max number of quotes listed
 - support for different file types
 - graphic user interface
